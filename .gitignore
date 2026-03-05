@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.python-version
+
+# macOS
+.DS_Store
+
+# Generated catalog artifacts
+catalog/repos.jsonl
+catalog/tree.jsonl
+catalog/bootstrap.md
+
+# Runtime workspace
+workspace/
