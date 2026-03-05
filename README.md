@@ -8,8 +8,9 @@
 ## ユーザー向け使い方（mybinder）
 1. mybinder.org でこのリポジトリを起動する。
 2. JupyterLab で `Terminal` を開く。
-3. Terminal で `codex` を実行する。
-4. 質問する。
+3. Terminal で `codex login --device-auth` を実行してログインする。
+4. Terminal で `codex` を実行する。
+5. 質問する。
 
 ## 前提
 - 対象は公開情報のみ。
