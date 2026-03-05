@@ -11,10 +11,5 @@ venv/
 # macOS
 .DS_Store
 
-# Generated catalog artifacts
-catalog/repos.jsonl
-catalog/tree.jsonl
-catalog/bootstrap.md
-
 # Runtime workspace
 workspace/
