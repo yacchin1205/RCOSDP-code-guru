@@ -6,5 +6,6 @@ dependencies:
   - pip
   - nodejs>=20
   - git
+  - gh
   - ripgrep
   - jq

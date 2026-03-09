@@ -8,6 +8,7 @@ cat > "${HOME}/.codex_login_hint.sh" <<'EOF'
 if [ -n "${PS1:-}" ] && [ -z "${CODEX_HINT_SHOWN:-}" ]; then
   export CODEX_HINT_SHOWN=1
   echo "[RCOSDP Code Guru] Before using codex, run: codex login --device-auth"
+  echo "[RCOSDP Code Guru] mybinder.org is NOT recommended. Use binder.cs.rcos.nii.ac.jp instead."
 fi
 EOF
 
